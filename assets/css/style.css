@@ -181,6 +181,7 @@ hr {
     display: flex;
     justify-content: space-evenly;
     list-style-type:none;
+    border: 3px grey;
 }
 #social-networks i {
     font-size:160%;
