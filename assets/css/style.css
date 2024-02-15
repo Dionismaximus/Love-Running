@@ -182,7 +182,45 @@ hr {
     line-height: 0;
 }
 
-
+/* Signup page */
+#signup {
+    
+    padding: 20px 10%;
+    background: url(../images/signup-image.webp) no-repeat center center/cover;
+    background-position: 75%;
+}
+#signup-form {
+    padding: 30px;
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6)
+}
+#signup-form h2 {
+    color: #fafafa;
+    padding-bottom: 20px;
+}
+.text-input {
+    border: 1px solid #fafafa;
+    background: transparent;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 25px;
+    padding: 0 5px;
+    color: #fafafa;
+}
+#radio-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.join-button {
+    margin-top: 15px;
+    padding: 15px 32px;
+    border-radius: 2px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
 
 /* Footer */
 #social-networks {
@@ -200,6 +238,8 @@ hr {
 }
 
 
+
+/* ALL media queries below */
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
