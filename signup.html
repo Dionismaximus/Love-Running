@@ -40,9 +40,31 @@
 
     <!-- Main content -->
     <main>
-        <div id="test">
-            Test div
-        </div>
+        <h2><i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!</h2>
+        <form action="https://formdump.codeinstitute.net" method="POST">
+            <label for="name">First Name</label>
+            <input id="name" type="text" name="first_name">
+            <br>
+            <label for="last_name">Last Name</label>
+            <input id="last_name" type="text" name="last_name">
+            <br>
+            <label for="email">Email address</label>
+            <input id="email" type="email" name="email_address">
+            <br>
+            <!-- Radio button -->
+            <label for="preference_road">Road</label>
+            <input id="preference" type="radio" name="running_preference" value="road">
+            <br>
+            <label for="preference_trail">Trail</label>
+            <input id="preference_trail" type="radio" name="running_preference" value="trail">
+            <br>
+            <label for="preference_both">Both</label>
+            <input id="preference_both" type="radio" name="running_preference" value="both">
+            <br>
+            <button type="submit">Let's run!</button>
+
+        </form>
+
     </main>
 
     <!-- Footer -->
