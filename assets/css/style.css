@@ -322,7 +322,7 @@ hr {
         background-color:#fafafa;
         color: #454b1b;
     }
-    #text-input:hover { 
+    .text-input:hover { 
         border-color: #f16c6b;
     }
 }
