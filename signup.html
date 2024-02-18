@@ -45,27 +45,27 @@
         <form id="signup-form" action="https://formdump.codeinstitute.net" method="POST">
             <h2><i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!</h2>
             <label for="name">First Name</label>
-            <input class ="text-input" id="name" type="text" name="first_name">
+            <input class ="text-input" id="name" type="text" name="first_name" required>
             <br>
             <label for="last_name">Last Name</label>
-            <input class ="text-input" id="last_name" type="text" name="last_name">
+            <input class ="text-input" id="last_name" type="text" name="last_name" required>
             <br>
             <label for="email">Email address</label>
-            <input class ="text-input" id="email" type="email" name="email_address">
+            <input class ="text-input" id="email" type="email" name="email_address" required>
             <br>
             <!-- Radio button -->
             <div id="radio-buttons">
                 <div>
                 <label for="preference_road">Road</label>
-                <input id="preference" type="radio" name="running_preference" value="road">
+                <input id="preference" type="radio" name="running_preference" value="road" required>
                 </div>
                 <div>
                 <label for="preference_trail">Trail</label>
-                <input id="preference_trail" type="radio" name="running_preference" value="trail">
+                <input id="preference_trail" type="radio" name="running_preference" value="trail" required>
                 </div>
                 <div>
                 <label for="preference_both">Both</label>
-                <input id="preference_both" type="radio" name="running_preference" value="both">
+                <input id="preference_both" type="radio" name="running_preference" value="both" required>
                 </div>
             </div>
             <button class="join-button" type="submit">Let's run!</button>
