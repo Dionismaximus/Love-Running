@@ -184,7 +184,7 @@ hr {
 
 /* Signup page */
 #signup {
-    
+    height: 85vh;
     padding: 20px 10%;
     background: url(../images/signup-image.webp) no-repeat center center/cover;
     background-position: 75%;
@@ -311,7 +311,6 @@ hr {
     /* Signup form */
     #signup {
         padding-top: 1px;
-        background: url(../images/signup-image.webp) no-repeat cover;
         background-position: 50%;
         height: 85vh;
     }
@@ -324,7 +323,7 @@ hr {
         color: #454b1b;
     }
     #text-input:hover { 
-        border-color: 10px solid #f16c6b;
+        border-color: #f16c6b;
     }
 }
 
